@@ -4,7 +4,7 @@ import (
 	"net"
 	"time"
 
-	"gopkg.in/redis.v4/internal/proto"
+	"github.com/Hepri/redis/internal/proto"
 )
 
 const defaultBufSize = 4096

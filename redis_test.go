@@ -7,7 +7,7 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"gopkg.in/redis.v4"
+	"github.com/Hepri/redis"
 )
 
 var _ = Describe("Client", func() {

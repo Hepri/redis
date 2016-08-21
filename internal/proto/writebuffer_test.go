@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Hepri/redis/internal/proto"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"gopkg.in/redis.v4/internal/proto"
 )
 
 var _ = Describe("WriteBuffer", func() {

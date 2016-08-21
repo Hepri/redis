@@ -3,7 +3,7 @@ package redis
 import (
 	"time"
 
-	"gopkg.in/redis.v4/internal/pool"
+	"github.com/Hepri/redis/internal/pool"
 )
 
 func (c *baseClient) Pool() pool.Pooler {

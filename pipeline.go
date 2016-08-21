@@ -4,8 +4,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gopkg.in/redis.v4/internal/errors"
-	"gopkg.in/redis.v4/internal/pool"
+	"github.com/Hepri/redis/internal/errors"
+	"github.com/Hepri/redis/internal/pool"
 )
 
 // Pipeline implements pipelining as described in

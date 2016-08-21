@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"gopkg.in/redis.v4/internal/pool"
-	"gopkg.in/redis.v4/internal/proto"
+	"github.com/Hepri/redis/internal/pool"
+	"github.com/Hepri/redis/internal/proto"
 )
 
 var (

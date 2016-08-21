@@ -6,10 +6,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"gopkg.in/redis.v4/internal"
-	"gopkg.in/redis.v4/internal/errors"
-	"gopkg.in/redis.v4/internal/hashtag"
-	"gopkg.in/redis.v4/internal/pool"
+	"github.com/Hepri/redis/internal"
+	"github.com/Hepri/redis/internal/errors"
+	"github.com/Hepri/redis/internal/hashtag"
+	"github.com/Hepri/redis/internal/pool"
 )
 
 type clusterNode struct {

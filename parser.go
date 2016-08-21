@@ -5,7 +5,7 @@ import (
 	"net"
 	"strconv"
 
-	"gopkg.in/redis.v4/internal/proto"
+	"github.com/Hepri/redis/internal/proto"
 )
 
 // Implements proto.MultiBulkParse

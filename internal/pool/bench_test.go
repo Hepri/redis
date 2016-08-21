@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/redis.v4/internal/pool"
+	"github.com/Hepri/redis/internal/pool"
 )
 
 func benchmarkPoolGetPut(b *testing.B, poolSize int) {

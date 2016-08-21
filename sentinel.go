@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/redis.v4/internal"
-	"gopkg.in/redis.v4/internal/pool"
+	"github.com/Hepri/redis/internal"
+	"github.com/Hepri/redis/internal/pool"
 )
 
 //------------------------------------------------------------------------------

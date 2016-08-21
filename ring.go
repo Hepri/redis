@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"gopkg.in/redis.v4/internal"
-	"gopkg.in/redis.v4/internal/consistenthash"
-	"gopkg.in/redis.v4/internal/hashtag"
-	"gopkg.in/redis.v4/internal/pool"
+	"github.com/Hepri/redis/internal"
+	"github.com/Hepri/redis/internal/consistenthash"
+	"github.com/Hepri/redis/internal/hashtag"
+	"github.com/Hepri/redis/internal/pool"
 )
 
 var errRingShardsDown = errors.New("redis: all ring shards are down")
